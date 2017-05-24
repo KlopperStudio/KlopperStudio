@@ -4,8 +4,9 @@
 	font-family:imagine;
 	src:url(../Fuentes/imagine_font.ttf);
 }
-.menu ul li a{
+#menu ul li a{
 	font-family:zekton;
+	font-size: 21px;
 }
 .subTabContent, .Integrantes p{
 	font-family:zekton;
