@@ -1,0 +1,76 @@
+#menu ul li a{
+	color: #006F53;
+}
+#menu ul li a:hover{
+	color:#00CC99;
+}
+#ContSentence {
+	background-color:#006F53;
+}
+#Contacto{
+	float: left;
+	width: 600px;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+#Ubicacion{
+	float: left;
+	margin-top: 100px;
+}
+#InfoContact{
+	float: left;
+	text-align: right;
+	margin-right: 10px;
+	margin-left: 50px;
+	margin-top: 140px;
+}
+ #Nombre{
+ 	float: left;
+	width: 50%;
+}
+ #Correo{
+ 	float: left;
+	width: 50%;
+}
+textarea,.campo{
+	background-color: #cccccc;
+	margin-top: 10px;
+	border-style: none;
+}
+textarea{
+	padding: 10px;
+	width: 95%;
+}
+.campo{
+	padding: 5px;
+	width: 93%;
+	margin-bottom: 10px;
+}
+.campo:focus,textarea:focus{
+	background: #FFFFFF;
+	outline: none;
+	-webkit-box-shadow: 0px 0px 0px 2.5px rgba(139,228,230,1);
+    -moz-box-shadow: 0px 0px 0px 2.5px rgba(139,228,230,1);
+    box-shadow: 0px 0px 0px 2.5px rgba(139,228,230,1);
+}
+label{
+	color: #A8C06E;
+}
+h3{
+	color: #00CC99;
+	padding-bottom: 5px ;
+	padding-top: 10px ;
+}
+.boton{
+	background-color: #007D7F;
+	color: #fff;
+	border-style: none;
+	padding: 10px 20px 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 84%;
+	margin-top: 5px;
+}
+#tfAsunto{
+	width: 97%;
+}

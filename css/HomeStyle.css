@@ -1,0 +1,47 @@
+#menu ul li a{
+	color: #78d800;
+}
+
+#menu ul li a:hover{
+	color: #ccc;
+}
+
+#Banner{
+	width: 100%;
+	overflow: hidden;
+	padding: 0px;
+	max-width: 1500px;
+	text-align: center;
+}
+#Banner ul{
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	padding: 0px;
+	animation: cambio 20s infinite alternate; /*llama la animacion y la ejecuta al dercho y al reves*/
+	border-radius: 15px;
+}
+@keyframes cambio{
+	0%{margin-left: 0;}/*el porcentaje se refiere al porcentaje de un minuto*/
+	20%{margin-left: 0;}
+
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+
+	50%{margin-left: -200%;}
+	70%{margin-left: -200%;}
+
+	75%{margin-left: -300%;}
+	100%{margin-left: -300%;}
+}
+#Banner li{
+	width: 100%;
+	list-style: none;
+}
+#social{
+	position: fixed;
+	left: 0;
+	top: 36%;
+	z-index: 2000;
+}

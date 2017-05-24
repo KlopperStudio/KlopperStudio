@@ -1,0 +1,36 @@
+@font-face{
+	font-family:zekton;
+	src:url(../Fuentes/zekton.ttf);
+	font-family:imagine;
+	src:url(../Fuentes/imagine_font.ttf);
+}
+.menu ul li a{
+	font-family:zekton;
+}
+.subTabContent, .Integrantes p{
+	font-family:zekton;
+	font-size: 21px;
+}
+#tabs a,#subTabs a{
+	font-family:zekton;
+	font-size: 20px;
+}
+.descriptions, #footer, #ContSentence p{
+	font-family:zekton;
+	font-size: 15px;
+}
+.amazingslider-nav-thumbnail-tite-1{
+	font-family:zekton !important;
+	font-size: 15px !important;
+	font-style: normal !important;
+}
+h3,.subTabContent p{
+	font-family:imagine;
+}
+label, input{
+	font-family:zekton;
+}
+#InfoKlopper{
+	font-family:zekton;
+	font-size: 21px;
+}

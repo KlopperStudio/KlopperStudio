@@ -1,0 +1,29 @@
+#menu ul li a{
+	color:#CC6633;
+}
+#ContSentence {
+	background-color:#CC6633;
+}
+#menu ul li a:hover{
+	color:#FF7A2F;
+}
+.Integrantes{
+	display:inline-grid;
+	margin-right: 100px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.Integrantes p{
+	color: #676767;
+}
+#InfoKlopper{
+	width: 95%;
+	border-radius: 5px;
+	margin:auto;
+	background-color: #624526;
+	color: #B47F46;
+	padding: 10px;
+	text-align: center;
+	float: none;
+}

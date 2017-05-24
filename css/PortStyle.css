@@ -1,0 +1,19 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu ul li a{
+	color: #008F91;
+}
+#menu ul li a:hover{
+	color:#49D3D5 ;
+}
+#ContSentence {
+	background-color: #008F91;
+}
+#amazingslider-wrapper-1{
+	padding-top: 70px;
+}
+
+

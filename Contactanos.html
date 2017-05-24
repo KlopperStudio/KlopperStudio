@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8"/><!--sirve para que se reconozcan los caractere especiales-->
+	<meta description="Sitio web de Klopper Studio"/>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/Fuentes.css">
+	<link rel="stylesheet" type="text/css" href="css/comunStyle.css">
+	<link rel="stylesheet" type="text/css" href="css/contacStyle.css">
+	<title>Klopper Studio</title>
+</head>
+<body>
+	<div id="Container">
+		<div id="social">
+			<ul>
+			<!--target bank sirve para q el link abra en otra pestaña-->
+				<li><a href="http://www.facebook.com/Klopperstudio" target="_blank" class ="facebook"></a></li> 
+				<li><a href="https://twitter.com/klopperstudio" target="_blank" class ="twitter"></a></li>
+				<li><a href="https://youtube.com/" target="_blank" class="youTube"></a></li>
+				<li><a href="mailto:gerencia@klopperstudio.com.co" target="_blank"class="mail"></a></li>
+			</ul>
+		</div><!--Cierra social-->
+		<div id="Inicio">
+			<a href="index.html" class ="Logo"></a>
+		</div><!--Cierra logo-->
+		<div id="central">
+				<div id="menu">
+						<ul>
+							<li><a href="Portafolio.html" >Portafolio </a></li>
+							<li><a href="Servicios.html">Servicios</a></li>
+							<li><a href="Contactanos.html" style="color: #CCC; text-decoration: underline;">Contactanos</a></li>
+							<li><a href="Conocenos.html">Conocenos</a></li>
+						</ul>
+					</div><!--Cierra menu-->
+				<div id="ContSentence">
+					<p>
+						"El hombre es un animal que juega"<BR>
+								Charles Lamb
+					</p>
+				</div>
+		</div><!--Cierra central-->
+
+			<div id="Contacto">
+			<h3>CONTACTO</h3>
+				<form method="post" action="email.php">
+					<div id="Nombre">
+						<label>Nombre:</label><br/>
+						<input type="text" class="campo" id="tfNombre" name="tfNombre"><br/>
+					</div><!--Cierra Nombre-->
+					<div id="Correo">
+						<label>Correo electronico:</label><br/>
+						<input type="text" class="campo" id="tfCorreo" name="tfCorreo"><br/>
+					</div><!--Cierra Correo-->
+					<label>Asunto:</label><br/>
+					<input type="text" class="campo" id="tfAsunto" name="tfAsunto"><br/>
+					<label>Comentario:</label><br/>
+					<textarea id="tfMensaje" name="tfMensaje" cols="62" rows="8"></textarea><br/>
+					<input type="submit" value="Enviar" class="boton">
+				</form><!--Cierra from-->
+			</div><!--Cierra Contacto-->
+			<div id="InfoContact">
+				<h3>CORREO ELECTRONICO</h3>
+				<label>gerencia@klopperstudio.com.co</label>
+				<h3>NUMERO DE TELEFONO</h3>
+				<label>321-9082417</label>
+				<h3>DIRECCIÓN</h3>
+				<label>Carrera 129a # 129b-09</label>
+			</div><!--Cierra InfoContact-->
+			<div id="Ubicacion">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15904.697740211097!2d-74.11490646696049!3d4.739733678615014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f8484fcb34109%3A0x5676928681b7a890!2sCra.+129a+%23129b-9%2C+Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1495431906648" width="320" height="255" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div><!--Cierra ubicacion-->
+		<div id=footer>
+			Todos los derechos reservados - 2017
+		</div><!--Cierra footer-->
+	</div><!--Cierra conainer-->
+</body>
+</html>
