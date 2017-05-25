@@ -46,7 +46,7 @@
 	z-index: 2000;
 }
 #Lanzamientos{
-	height: 500px;
+	height: 520px;
 	width: 90%;
 	margin: auto;
 	margin-top: 50px;
@@ -59,6 +59,7 @@
     padding-left: 40px;
 }
 #Lanzamientos h3{
+	margin-left: 60px;
 	padding-top: 40px;
 	padding-bottom: 20px;
 }
