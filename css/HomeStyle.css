@@ -45,3 +45,28 @@
 	top: 36%;
 	z-index: 2000;
 }
+#Lanzamientos{
+	height: 500px;
+	width: 90%;
+	margin: auto;
+	margin-top: 50px;
+	color: #086b57;
+	background-color: #00C4C7;
+	border-radius: 119px 0px 119px 0px;
+    -moz-border-radius: 119px 0px 119px 0px;
+    -webkit-border-radius: 119px 0px 119px 0px;
+    border: 0px solid #000000;
+    padding-left: 40px;
+}
+#Lanzamientos h3{
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+#Lanzamientos img {
+	margin-left: 30px;
+	-webkit-box-shadow: 10px 10px 15px 1px rgba(0,0,0,0.23);
+    -moz-box-shadow: 10px 10px 15px 1px rgba(0,0,0,0.23);
+    box-shadow: 10px 10px 15px 1px rgba(0,0,0,0.23);
+    -o-box-shadow: 10px 10px 15px 1px rgba(0,0,0,0.23);
+    -ms-box-shadow: 10px 10px 15px 1px rgba(0,0,0,0.23);
+}
